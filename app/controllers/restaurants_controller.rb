@@ -35,6 +35,8 @@ before_action :set_restaurant, only: [:show, :edit, :update, :destroy]
     redirect_to restaurants_path
   end
 
+
+
   private
     def set_restaurant
       @restaurant = Restaurant.find(params[:id])

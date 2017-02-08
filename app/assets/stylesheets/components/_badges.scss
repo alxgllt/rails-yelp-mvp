@@ -3,8 +3,16 @@
   font-size: 25px;
   line-height: 30px;
   width: 30px;
-  color: grey;
 }
+
+.stars {
+  color:black
+}
+
+.stars:hover{
+  color:yellow
+}
+
 .badge {
   position: absolute;
   top: -5px;
